@@ -12,7 +12,7 @@ header {
 }
 
 nav {
-    background-color: #003399;
+    background-color: #000099;
     padding: 1% 0 1% 2%;
 }
 
@@ -36,7 +36,7 @@ a {
     width: 100%;
     padding-left: 2%;
     padding-bottom: 1%;
-    background-color: #003399;
+    background-color: #000099;
 }
 
 .titleline img {
@@ -48,10 +48,12 @@ a {
 .titleline h1 {
     display: inline;
     font-size: 130%;
+    color: white;
 }
 
 .container {
-    background-color: #99CCFF;
+    padding-top: 3%;
+    background-color: #C2D6D6;
     display: grid;
     grid-template-columns: 30% 30%;
     grid-template-rows: auto 50% auto 50%;
@@ -69,7 +71,18 @@ a {
 
 .contentbox {
   background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
 }
+
+.contentbox:hover {
+transform: scale(1.5, 1.5);
+}
+
+/*.contentbox:hover {
+  transform: scale(1.5, 1.5); 
+} */
 
 .contentbox img {
     width: 100%;
@@ -81,7 +94,6 @@ a {
   padding: 2%;
   display: flex;
   flex-flow: row;
-
 }
 
 .destination {
@@ -107,13 +119,14 @@ a {
   text-align: right;
 } */
 
-
-
 footer {
     background-color: #003399;
-    color: white;
     text-align: center;
     padding: 1% 0 1% 0;
+}
+
+footer p {
+  color: white;
 }
 
 
